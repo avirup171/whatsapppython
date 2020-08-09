@@ -34,13 +34,13 @@ pip install - r requirements.txt
 class WhatsappAutomate
 ```
 It contains a parameterised constructor which takes in 2 params
-1. url: web.whatsapp.com
+1. url: https://web.whatsapp.com
 2. sendTo: The name of the contact whom you need to send the message
 
 ```
-sendMessage()
+sendMessage(messageList)
 ```
-This takes in the messageList which contains a list of messages to send
+This takes in the messageList as a parameter which contains a list of messages to send
 
 ```
 main()
