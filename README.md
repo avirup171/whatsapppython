@@ -10,6 +10,8 @@ Its pretty much simple to understand.
 3. The contact is selected with a click event triggered from the code
 4. The message is then sent to the textbox and an enter key press is triggered from the code to send the message.
 
+**Note:** You still need to use your cell phone to login. Keep your cellphone handy with the QR scan for whatsapp open. Its because of this that a time of 10s delay is introcuced in the main constructor under WhatsappAutomate class. This will allow the time for the user to login.
+
 ## Requirements
 1. Python 3.7
 2. Google chrome version 84
